@@ -1,0 +1,26 @@
+# Navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+
+# Safer commands
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+# Listing
+alias ls='ls --color=auto'
+alias ll='ls -lah'
+alias la='ls -A'
+
+# Git
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit -m'
+alias gp='git push'
+
+# System
+alias updateAll='sudo dnf update;sudo snap refresh;flatpak update'
+alias cls='clear'
+
+#Galaxy Book Specifics
+alias power_on_lid_open_toggle='sudo sh /home/adityarnsamal/.local/bin/power_on_lid_open_toggle.sh'
