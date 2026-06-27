@@ -18,8 +18,8 @@ Batch rename files in a directory using an Excel (`.xlsx`) file containing old a
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/<repository-name>.git
-cd <repository-name>
+git clone https://github.com/adityaranjansamal/MyScripts.git
+cd MyScripts/"Bulk File Renamer (Uses XLSX Template)"
 
 # Create and activate a virtual environment
 sudo apt install python3-venv
